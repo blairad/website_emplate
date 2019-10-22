@@ -110,6 +110,57 @@ footer img {
     font-weight: 300;
     color: #777;
 }
-.ite-section-secondary{
+.site-section-secondary{
     background: #efefef;
+}
+
+/* About */
+.about{
+    background: #ecf0f1;
+    width: 100%;
+    padding: 50px 0;
+}
+
+/* feature box */
+
+.service-box{
+    display: inline-block;
+    width: 24%;
+    padding: 20px 30px;
+    line-height: 1;
+}
+.service-box img{
+    width: 80px;
+    margin-bottom: 15px;
+}
+.service-box h4{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300px;
+    letter-spacing: 2px;
+}
+/* testimonial */
+
+.testimonial-box{
+    display: inline-block;
+    width: 27%;
+    padding: 20px 30px;
+}
+.testimonial-content{
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.testimonial-author{
+
+}
+.testimonial-author img{
+    float: left;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
