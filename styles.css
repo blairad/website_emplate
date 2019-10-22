@@ -54,7 +54,28 @@ footer {
 }
 footer img {
     display: block;
+/* display block so that it doesn't share the space with the wording */
     border-radius: 5px;
     width: 80px;
     margin: 0 auto 10px;
+}
+.hero {
+    min-height: 800px;
+    text-align: center;
+    background: #555;
+    background-image: url(../website_template/images/background.jpg);
+    background-size: cover;
+}
+.hero-content{
+    color:white;
+    padding-top: 130px;
+    line-height: 1;
+}
+.hero-title{
+    margin: 0;
+    font-size: 100px;
+}
+.hero-content p{
+    font-size: 50px;
+    margin-bottom: 60px;
 }
